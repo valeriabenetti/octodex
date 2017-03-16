@@ -28,18 +28,16 @@ li {
 .images {
   padding-top: 2em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  border-radius: 3px;
-  border: solid #cacaca;
   text-align: center;
-  border-width: 1px;
-  line-height: 0px;
+
 }
 .cat {
   padding: 4px;
   border: 0.05px solid #dcdee3;
   border-radius: 0.28em;
+  margin:10px;
 }
 .caption {
   display: flex;
@@ -58,4 +56,11 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width:450px;){
+
+  .cat {
+    width: 90%;
+    height: auto;
+  }
 }
