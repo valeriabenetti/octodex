@@ -6,3 +6,56 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaeaea;
+  align-items: center;
+  line-height: 1.4em;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  margin: 1em;
+  font-weight: bold;
+  font-size: 14px;
+}
+.images {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  border: solid #cacaca;
+  text-align: center;
+  border-width: 1px;
+  line-height: 0px;
+}
+.cat {
+  padding: 4px;
+  border: 0.05px solid #dcdee3;
+  border-radius: 0.28em;
+}
+.caption {
+  display: flex;
+  justify-content: space-between;
+  /*border-bottom: 0.05px solid #dcdee3;*/
+  border-bottom: 1px solid #cacaca;
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px;
+  position: relative;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
