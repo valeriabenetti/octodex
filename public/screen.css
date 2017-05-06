@@ -5,62 +5,81 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333;
+  padding: 0;
+  height: 100%;
 }
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #eaeaea;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 15, 20;
   align-items: center;
   line-height: 1.4em;
 }
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
-  padding-left: 0;
   list-style: none;
   text-decoration: none;
+  padding-left: 0;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  margin: 0;
 }
-li {
+
+nav li {
   margin: 1em;
   font-weight: bold;
-  font-size: 14px;
 }
-.images {
-  padding-top: 2em;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
 
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
 }
-.cat {
-  padding: 4px;
-  border: 0.05px solid #dcdee3;
-  border-radius: 0.28em;
-  margin:10px;
+
+.images img {
+  border-radius: 3px;
+  display: block;
+  border: solid #cacaca;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  border-width: 1px;
+  line-height: 0;
+  margin: 0 9;
+  padding: 1em;
 }
-.caption {
+
+.images {
   display: flex;
-  justify-content: space-between;
-  /*border-bottom: 0.05px solid #dcdee3;*/
-  border-bottom: 1px solid #cacaca;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div p {
   font-size: 16px;
   color: #666;
   font-weight: bold;
   text-align: right;
   padding: 12px 0 12px 0;
   margin: 0 12px 22px;
+  border-bottom: 1px solid #cacaca;
   position: relative;
 }
+
 footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-@media (max-width:450px;){
-
-  .cat {
-    width: 90%;
-    height: auto;
-  }
 }
