@@ -6,4 +6,4 @@ This day we had to implement on how to make text images work with flexbox.
 
 Our images that we copied were:
 
-![Newline Homework](public/images/newline.png.png)
+![Newline Homework](public/images/newline.png)
